@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite HU", cursive;
+}
+header{
+    
+    background-color: #6B8F71;
+    height: 50px;
+   
+}
+h1{
+    color: #1D1E18;
+}
+.he{
+    width: 30px;
+    height: 30px;
+
+}
+.head1{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #AAD2BA;
+     position: sticky;
+    
+    
+}
+
+.head2 {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 20px;
+}
+.spacer {
+  flex-grow: 1;
+}
+.vedio{
+    position: absolute;
+    z-index: -1;
+}
+img{
+    width: 250px;
+    height: 350px;
+    padding-left: 25px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.foodcont{
+    background-color: #6B8F71;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 470px;
+    width: 300px;
+}
+.foodcont:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+button{
+    color:#9C95DC;
+    width: 100px;
+    height: 30px;
+    display: block;
+  margin: 0 auto;
+}
+
