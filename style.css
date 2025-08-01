@@ -77,4 +77,75 @@ button{
     display: block;
   margin: 0 auto;
 }
+.footer {
+    background-color: #6B8F71;
+    color: #F5F5DC;
+    padding: 40px 0 20px 0;
+    margin-top: 50px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.footer-section {
+    margin-bottom: 30px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    color: #1D1E18;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.footer-section h4 {
+    color: #1D1E18;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.footer-section p {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-link {
+    color: #F5F5DC;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #AAD2BA;
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 2px solid #AAD2BA;
+    margin-top: 30px;
+}
+
+.footer-bottom p {
+    color: #F5F5DC;
+    font-size: 0.9em;
+}
+body{
+    background-color: #F5F5DC;
+}
+
 
